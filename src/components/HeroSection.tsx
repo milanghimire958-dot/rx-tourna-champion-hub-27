@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/sonner";
 import { Download, Trophy, Zap, Users } from "lucide-react";
 import rxLogo from "@/assets/rx-logo.png";
 import gamingBunny from "@/assets/gaming-bunny.png";
@@ -46,7 +47,12 @@ export const HeroSection = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-          <Button variant="download" size="lg" className="text-lg px-10 py-5 h-auto">
+          <Button 
+            variant="download" 
+            size="lg" 
+            className="text-lg px-10 py-5 h-auto"
+            onClick={() => toast("Thanks For downloading!")}
+          >
             <a 
               href="https://drive.google.com/uc?id=1IMy5mLGCHhDrXHdxGBR78p3ilxe_iI7A"
               className="flex items-center gap-3"

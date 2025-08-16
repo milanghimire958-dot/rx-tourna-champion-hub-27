@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/sonner";
 import rxLogo from "@/assets/rx-logo.png";
 
 export const Header = () => {
@@ -26,7 +27,11 @@ export const Header = () => {
           </a>
         </nav>
 
-        <Button variant="gaming" size="lg">
+        <Button 
+          variant="gaming" 
+          size="lg"
+          onClick={() => toast("Thanks For downloading!")}
+        >
           <a 
             href="https://drive.google.com/uc?id=1IMy5mLGCHhDrXHdxGBR78p3ilxe_iI7A"
             className="flex items-center gap-2"

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/sonner";
 import { Instagram, MessageCircle, Users } from "lucide-react";
 
 export const SocialSection = () => {
@@ -69,7 +70,12 @@ export const SocialSection = () => {
             <p className="text-foreground/80 mb-6">
               Download RX TOURNA now and start your journey to becoming a tournament champion!
             </p>
-            <Button variant="download" size="lg" className="text-lg px-8 py-4 h-auto">
+            <Button 
+              variant="download" 
+              size="lg" 
+              className="text-lg px-8 py-4 h-auto"
+              onClick={() => toast("Thanks For downloading!")}
+            >
               <a 
                 href="https://drive.google.com/uc?id=1IMy5mLGCHhDrXHdxGBR78p3ilxe_iI7A"
                 className="flex items-center gap-3"
