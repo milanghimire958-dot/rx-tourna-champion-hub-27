@@ -71,7 +71,7 @@ export const SocialSection = () => {
             </p>
             <Button variant="download" size="lg" className="text-lg px-8 py-4 h-auto">
               <a 
-                href="https://drive.google.com/u/0/uc?id=1EIPK5MYvQjzfdgSSi6tuwLm2OmKir0Dc&export=download"
+                href="https://drive.google.com/uc?id=1IMy5mLGCHhDrXHdxGBR78p3ilxe_iI7A"
                 className="flex items-center gap-3"
               >
                 Download RX TOURNA

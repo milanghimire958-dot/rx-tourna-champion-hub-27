@@ -28,7 +28,7 @@ export const Header = () => {
 
         <Button variant="gaming" size="lg">
           <a 
-            href="https://drive.google.com/u/0/uc?id=1EIPK5MYvQjzfdgSSi6tuwLm2OmKir0Dc&export=download"
+            href="https://drive.google.com/uc?id=1IMy5mLGCHhDrXHdxGBR78p3ilxe_iI7A"
             className="flex items-center gap-2"
           >
             Download Now
