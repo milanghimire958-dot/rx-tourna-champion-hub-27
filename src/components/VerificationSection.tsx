@@ -23,16 +23,31 @@ export const VerificationSection = () => {
                 <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary gaming-glow hover-scale animate-fade-in transition-all duration-500 hover:border-gaming-accent hover:shadow-2xl hover:shadow-primary/50 animate-float">
                   <img 
                     src={ownerPhoto} 
-                    alt="RX TOURNA Owner Verification Photo" 
+                    alt="RX TOURNA CEO Verification Photo" 
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                    style={{
+                      filter: "blur(8px) brightness(1.1)",
+                      backdropFilter: "blur(10px)"
+                    }}
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-full"></div>
                 </div>
                 <div className="flex items-center justify-center gap-2 mb-4">
                   <CheckCircle className="w-6 h-6 text-green-500" />
-                  <h3 className="text-2xl font-bold text-primary">Verified Owner</h3>
+                  <h3 className="text-2xl font-bold text-primary">Verified CEO</h3>
                 </div>
-                <p className="text-foreground/80">
-                  This is the real photo of the RX TOURNA owner as proof of legitimacy
+                <div className="bg-background/70 backdrop-blur-sm rounded-xl p-4 border border-primary/30 mb-4">
+                  <h4 className="text-xl font-bold text-gaming-accent mb-2">Tarjan Chaudhary</h4>
+                  <p className="text-sm text-foreground/90 font-semibold">Chief Executive Officer</p>
+                  <p className="text-sm text-foreground/70 mt-2">RX TOURNA Gaming Platform</p>
+                </div>
+                <div className="bg-card/50 backdrop-blur-sm rounded-xl p-4 border border-secondary/30">
+                  <h5 className="text-lg font-bold text-secondary mb-2">🏢 Business Location</h5>
+                  <p className="text-foreground/90 font-medium">Laxminagar-1, Dhangadhi</p>
+                  <p className="text-foreground/80">Kailali, Nepal 🇳🇵</p>
+                </div>
+                <p className="text-foreground/70 mt-4 text-sm">
+                  Identity protected for privacy while maintaining business transparency
                 </p>
               </div>
             </div>
