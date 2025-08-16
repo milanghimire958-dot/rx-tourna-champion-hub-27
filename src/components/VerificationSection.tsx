@@ -20,11 +20,11 @@ export const VerificationSection = () => {
             {/* Owner Verification */}
             <div className="bg-background/50 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 gaming-glow">
               <div className="text-center mb-6">
-                <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary gaming-glow">
+                <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary gaming-glow hover-scale animate-fade-in transition-all duration-500 hover:border-gaming-accent hover:shadow-2xl hover:shadow-primary/50 animate-float">
                   <img 
                     src={ownerPhoto} 
                     alt="RX TOURNA Owner Verification Photo" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                   />
                 </div>
                 <div className="flex items-center justify-center gap-2 mb-4">
